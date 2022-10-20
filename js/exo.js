@@ -1,3 +1,4 @@
+// étape 1 : présentation
 
 let hero = {
     name : "Hercules",
@@ -9,3 +10,11 @@ let hero = {
 }
 
 base.fillProfil(hero);
+
+// étape 2 : amis
+
+
+let friendsList = ["Jupiter", "Junon", "Alcmène", "Déjanire"]
+let bestFriend = friendsList[0];
+base.printFriends(friendsList);
+base.setBestFriend(bestFriend);
