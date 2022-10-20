@@ -67,3 +67,14 @@ function toggleMenu(Event){
 
 let menu = document.getElementById("menu-toggler");
 menu.addEventListener("click", toggleMenu);
+
+// étape 9 event bis
+
+function submit(event){
+    event.preventDefault();
+    alert("Hercule ne souhaite pas être dérangé");
+}
+let contact = document.getElementById("contact");
+contact.addEventListener("submit", submit);
+
+
