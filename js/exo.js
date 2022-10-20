@@ -47,3 +47,13 @@ else {
     disponibility.classList.add("off");
 }
 
+// étape 7 : fonction
+
+let profilName = document.getElementById("profil-name");
+
+function generatePseudo(firstName, departmentNumber){
+    return `${firstName}-du-${departmentNumber}`;
+    
+}
+
+profilName.innerHTML = generatePseudo("hercule", 75);
