@@ -57,3 +57,13 @@ function generatePseudo(firstName, departmentNumber){
 }
 
 profilName.innerHTML = generatePseudo("hercule", 75);
+
+// étape 8 : Event
+
+function toggleMenu(Event){
+    let headerBanner = document.getElementById("header-banner");
+    headerBanner.classList.toggle("banner--open");
+}
+
+let menu = document.getElementById("menu-toggler");
+menu.addEventListener("click", toggleMenu);
